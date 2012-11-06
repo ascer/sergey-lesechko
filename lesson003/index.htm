@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Урок «Формы»</title>
+<meta id="description" content="Теги и атрибуты форм form, input, checkbox, radio, reset, submit, label, fieldset" />
+</head>
+
+<body>
+<h1>Урок «Формы»: теги и их атрибуты</h1>
+<h2>Расскажите немного о себе...</h2>
+<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные</p>
+<form action="mailto:less@xlan.net.ua" method="post" id="myform" name="myname">
+<fieldset>
+	<legend>Коротко о себе</legend>
+    <ul>
+        <li><label for="name001">Имя:</label> <input type="text" id="name001"/></li>
+        <li><label for="name002">Фамилия</label> <input type="text" id="name002"/></li>
+        <li><span>Пол:</span>
+        	<ul>
+            	<li><input type="radio" id="name003" name="name003"/>мужской</li>
+            	<li><input type="radio" id="name004" name="name003"/>женский</li>
+            </ul>
+        </li>
+        <li><label for="name005">Возраст: </label><input type="text" id="name005" size="2"/> лет</li>
+	</ul>
+</fieldset>
+<fieldset>
+	<legend>Подробнее о себе</legend>
+	<ul>
+        <li><input type="radio" id="name101" name="name101"/>Молодой человек</li>
+        <li><input type="radio" id="name101a" name="name101"/>Девушка</li>
+        <li><input type="text" id="name102"/><label for="name102"> Дата рождения</label></li>
+        <li><input type="text" id="name103"/><label for="name103"> Семейное положение</label></li>
+        <li><input type="text" id="name104"/><label for="name104"> Социальный статус</label></li>
+        <li><input type="text" id="name105"/><label for="name105"> Местожительство</label></li>
+        <li>
+        	<p>Что вы обычно делаете на выходных:</p>
+            	<ul>
+                    <li><input type="checkbox" id="name106"/>Сплю</li>
+                    <li><input type="checkbox" id="name107"/>Гуляю с друзьями</li>
+                    <li><input type="checkbox" id="name108"/>Хожу на рыбалку</li>
+                    <li><input type="checkbox" id="name109"/>Играю в игры</li>
+            	</ul>
+    	</li>
+        <li><p>Рассказать о формах в книге, посвященной HTML:</p>
+            <select>
+                <option value="one">Выбор 1</option>
+                <option value="two">Выбор 2</option>
+            </select>
+        </li>
+        <li><label for="name111">Сколько книг вы прочитали за свою жизнь</label></li>
+        <li><input type="radio" id="name111"/>  0–10</li>
+        <li><input type="radio" id="name111"/> 11–20</li>
+        <li><input type="radio" id="name111"/> 21–50</li>
+        <li><input type="radio" id="name111"/> 50+</li>
+    
+        <li><label for="name112">Ваши комментарии</label></li>
+        <li><textarea id="name112" rows="3" cols="60"></textarea></li>
+
+        <select multiple="multiple" size="3">
+            <option id="name113">Первая позиция</option>
+            <option id="name114" selected="selected">Вторая позиция</option>
+            <option id="name115">Третья позиция</option>
+        </select>
+
+	</ul>    
+</fieldset>
+<fieldset>
+	<legend>И в заключение</legend>
+	<input type="text" id="name201" value="Это поле было введено до вас" disabled="disabled"/></li>
+	<ul>
+        <li><label for="name202">Email:</label></li>
+        <li><input type="text" id="name202"/></li>
+    
+        <p>Хотите подписаться на рассылку спама?</p>
+        <p><em>Выберите категории</em></p>
+            <li><input type="checkbox" id="name203"/> Оборудование</li>
+            <li><input type="checkbox" id="name204"/> Как приготовить обеды</li>
+            <li><input type="checkbox" id="name205"/> Заработай миллион за два дня!</li>
+    
+        <p>Насколько сложная задача</з>
+        <li><input type="radio" id="name206"/> Совсем нет</li>
+        <li><input type="radio" id="name206"/> Так себе</li>
+        <li><input type="radio" id="name206"/> Еле справился</li>
+	</ul>
+    
+</fieldset>
+	<div><input type="submit" id="name301" value="Отправить"/></div>
+</form>
+</body>
+</html>
