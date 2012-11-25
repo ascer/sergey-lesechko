@@ -99,8 +99,8 @@ p	{
 	margin-right:300px;
 }
 
-ul.crcl	{
-	list-style-type:circle;
+.crcl	{
+	list-style:circle;
 }
 
 
