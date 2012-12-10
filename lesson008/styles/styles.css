@@ -69,10 +69,10 @@ a:hover			{ text-decoration:none; }
 				text-decoration:none;
 }
 #header a.active { background: url(../images/pointer.png) no-repeat scroll center bottom;
-				color: #E21D5D;
+				color: #E21D5D !important;
 				height:108px;
 }
-li.act			{ color: #E21D5D; }
+li.act			{ color: #E21D5D !important;}
 
 /*---------------------NAV-----------------------------*/
 #nav			{  }
@@ -88,6 +88,7 @@ li.act			{ color: #E21D5D; }
 				list-style-position:inside;
 				padding:7px 0px;
 				display:block;
+				color:#396375;
 }
 
 #content .left	{ float:left; clear:left;
@@ -107,7 +108,8 @@ li.act			{ color: #E21D5D; }
 				padding: 10px 10px 10px 0px;
 				float: left;
 				font-weight: bold;
-				text-transform: uppercase; }
+				text-transform: uppercase;
+				color:#396375; }
 #footer	p		{ color: #ACC7D2;
 				padding: 10px 0px;
 				float: right; }
