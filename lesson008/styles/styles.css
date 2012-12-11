@@ -1,4 +1,4 @@
-/*--------------RESET DEFAULT STYLES-------------------*/
+/* RESET DEFAULT STYLES */
 html,body		{ width:100%; height:100%; }
 body			{ padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000;
 			background: url(../images/bg_top.png) repeat-x; }
@@ -17,7 +17,7 @@ table			{ border-collapse:collapse; border-spacing:0; }
 a:link, a:visited	{ font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
 a:hover			{ text-decoration:none; }
 
-/*---------------------DEFAULT CLASSES-----------------*/
+/* DEFAULT CLASSES */
 .float-r		{ float:right !important; }
 .float-l		{ float:left !important; }
 .no-float		{ float:none !important; }
@@ -34,11 +34,11 @@ a:hover			{ text-decoration:none; }
 .align-c		{ text-align:center !important; }
 .clear			{ clear:both; }
 
-/*---------------------WRAPPER-------------------------*/
+/* WRAPPER */
 #wrapper		{ width:904px;
 			margin: 0 auto; }
 
-/*---------------------HEADER--------------------------*/
+/* HEADER */
 #header			{ height: 108px; }
 #header img		{ margin: 19px 0px; float: left; }
 #header .icons	{ padding: 44px 62px; float: left; }
@@ -74,31 +74,34 @@ a:hover			{ text-decoration:none; }
 }
 li.act			{ color: #E21D5D !important;}
 
-/*---------------------NAV-----------------------------*/
+/* NAV */
 #nav			{  }
 
-/*---------------------CONTENT-------------------------*/
+/* CONTENT */
 #content		{ clear: left; }
 #content h2		{ font-size: 48px; color: #4C7689;
 				padding: 20px 0 20px;
 				border-bottom-style:solid;
 				border-width:thin;
 				border-color:#A7C3CF; }
-#content li		{ list-style-image: url(../images/photo-01.png);
-				list-style-position:inside;
-				padding:7px 0px;
+
+#content li		{ list-style-position:inside;
+				padding:30px 0px 200px;
 				display:block;
 				color:#396375;
+				/* clear:both; */
 }
 
-#content .left	{ float:left; clear:left;
-}
-#content .right	{ float:right; clear:right;
-}
+#content .left-fl	{ float:left; }
+#content .right-fl	{ float:right; }
+#content div	{ width:200px; text-align:right; padding:40px 10px; }
+#content h3		{ color:#EA2778; font-size:24px; }
+#content span	{ color:#F3753E; }
+#content p		{ display:block; font-size:14px; padding:30px 10px; size:100px; }
 
-/*---------------------SIDEBAR-------------------------*/
+/* SIDEBAR */
 
-/*---------------------FOOTER--------------------------*/
+/* FOOTER */
 #footer			{ clear: left;
 				border-top-style:solid;
 				border-width:thin;
