@@ -94,10 +94,14 @@ li.act			{ color: #E21D5D !important;}
 
 #content .left-fl	{ float:left; }
 #content .right-fl	{ float:right; }
-#content div	{ width:200px; text-align:right; padding:40px 10px; }
+#content div	{ width:200px; text-align:right; padding:40px 20px; }
+#content div.left-fl	{ text-align:right; }
+#content div.right-fl	{ text-align:left; }
+#content p.right-fl	{ text-align:right; }
+#content p.left-fl	{ text-align:left; }
 #content h3		{ color:#EA2778; font-size:24px; }
 #content span	{ color:#F3753E; }
-#content p		{ display:block; font-size:14px; padding:30px 10px; size:100px; }
+#content p		{ display:block; font-size:14px; padding:30px 20px; width:450px; }
 
 /* SIDEBAR */
 
