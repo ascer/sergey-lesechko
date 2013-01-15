@@ -1,0 +1,312 @@
+/*--------------RESET DEFAULT STYLES-------------------*/
+html,body
+	{ width:100%; height:100%; }
+body
+	{ padding:0; margin:0;
+	font:13px Trebuchet MS, Tahoma, sans-serif;
+	background: url(../images/bg.png) repeat-x;
+	background-color:#414141;
+	color: #4F4F4F; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea	{ font-size:13px; vertical-align:middle; }
+textarea		{ vertical-align:top; }
+:focus			{ outline:none; }
+input[type=submit]	{ cursor:pointer; }
+img, fieldset		{ border:0; }
+table			{ border-collapse:collapse; border-spacing:0; }
+a:link, a:visited	{ font:13px Trebuchet MS, Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover			{ text-decoration:none; }
+
+/*---------------------DEFAULT CLASSES-----------------*/
+.float-r		{ float:right !important; }
+.float-l		{ float:left !important; }
+.no-float		{ float:none !important; }
+.no-border		{ border:0 !important; }
+.no-bg			{ background:none !important; }
+.no-margin		{ margin:0 !important; }
+.no-padding		{ padding:0 !important; }
+.no-display		{ display:none !important; }
+.display		{ display:block !important; }
+.inline			{ display:inline !important; }
+.overflow		{ overflow:hidden !important; }
+.align-r		{ text-align:right !important; }
+.align-l		{ text-align:left !important; }
+.align-c		{ text-align:center !important; }
+.clear			{ clear:both; }
+
+/*---------------------WRAPPER-------------------------*/
+#wrapper1
+	{ background:url(../images/bg-top.jpg) no-repeat scroll center top transparent; }
+#wrapper2
+	{  }
+
+/*---------------------HEADER--------------------------*/
+#header, #content {
+	width:812px;
+	margin:0 auto;
+}
+#header {
+	height:549px;
+}
+#header .logo {
+	float:left;
+	padding-top:40px;
+}
+#header .logo h1 {
+	display:none;
+}
+#header .lang { }
+#header .lang li {
+	float:right; 
+	padding-top:90px;
+}
+#header .lang li a {
+	background:url(../images/flag.gif) no-repeat;
+	display:block;
+	margin:10px;
+	height:13px;
+	width:22px;
+	text-indent:-999em;
+}
+#header .lang li a.en {
+	background-position:-0px 0px;
+}
+#header .lang li a.sh {
+	background-position:-22px 0px;
+}
+#header .lang li a.uk {
+	background-position:-44px 0px;
+	}
+#header .promo {
+	background:url(../images/substrate1.png) no-repeat;
+	display:block;
+	height:405px;
+	clear:both;
+	float:none;
+}
+#header .promo .main-banner {
+	border:4px solid;
+	border-color:#FFF; 
+	margin:13px 0px 0px 16px;
+	float:left;
+}
+#header	.promo .search {
+	background:url(../images/substrate2.png) no-repeat;
+	margin:13px 0px 0px 16px;
+	height:370px;
+	width:242px;
+	float:left;
+}
+#header	.promo .search div {
+	background:url(../images/5off.png) no-repeat;
+	background-position:115px 10px;
+	padding:20px;
+	
+}
+
+#header	.promo .search a {
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	color:gray;
+}
+
+#header	.promo .search #find-button {
+	background:url(../images/bg-btn-find.png) no-repeat;
+	border:none;
+	width:105px;
+	height:23px;
+	color:#FFF;
+	cursor:pointer;
+	font-size:12px;
+/* Как поднять надпись внутри кнопки? */
+}
+
+#header	.promo .search form {
+	padding-top:20px;
+}
+#header	.promo .search form ul {
+}
+#header	.promo .search form ul li {
+	padding-top:10px;
+}
+#header	.promo .search form select {
+	background:url(../images/bg-form.png);
+	width:210px;
+	height:21px;
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	border:none;
+	padding:2px 5px;
+	color:gray;
+	font-size:12px;
+/* Как «бороться» со смещением текста в выпавшем списке? */ 
+}
+
+/*---------------------CONTENT-------------------------*/
+#content { }
+#content .menu li {
+	float:left; 
+	padding-top:0px;
+}
+#content .menu li a {
+	background: url(../images/squares.png) no-repeat;
+	display:block;
+	height:47px;
+	width:133px;
+	margin-right:2px;
+	padding-top:20px;
+/*	border-bottom:3px solid;
+	border-bottom-color:#3F3F3F; */
+	text-align:center;
+	color:#FFF;
+	text-decoration:none;
+}
+#content .menu li a.c1 { background-position:-0px 0px; }
+#content .menu li a.c2 { background-position:-133px -60px; }
+#content .menu li a.c2:hover { background-position:-133px 0px; }
+#content .menu li a.c3 { background-position:-266px -60px; }
+#content .menu li a.c3:hover { background-position:-266px 0px; }
+#content .menu li a.c4 { background-position:-399px -60px; }
+#content .menu li a.c4:hover { background-position:-399px 0px; }
+#content .menu li a.c5 { background-position:-532px -60px; }
+#content .menu li a.c5:hover { background-position:-532px 0px; }
+#content .menu li a.c6 { background-position:-665px -60px; }
+#content .menu li a.c6:hover { background-position:-665px 0px; }
+
+/*---------------------SIDEBAR-------------------------*/
+#sidebar,
+#sidebar .sections ul {
+	display:block;
+	float:right;
+	display:block;
+	width:126px;
+	margin:10px 10px 0px 0px;
+	padding:0px 0px;
+}
+
+#sidebar span+ul {
+	border:#FAFAFA solid;
+	border-top:none;
+}
+#sidebar span {
+	border:#FAFAFA solid;
+	border-bottom:none;
+}
+
+#sidebar span {
+	display:block;
+	background:url(../images/substrate3.png) no-repeat;
+	background-position:0px -30px;
+	background-color:#E6E6E6;
+	padding:10px 15px;
+	margin-top:5px;
+	color:#AA2311;
+	font-weight:bold;
+}
+#sidebar .sections li a,
+#sidebar .registration li a,
+#sidebar .information li a,
+#sidebar .sections li span {
+	display:block;
+	border:none;
+	background:url(../images/substrate3.png) no-repeat;
+	background-color:#E6E6E6;
+	text-decoration:none;
+	color:#434343;
+}
+#sidebar .sections li a,
+#sidebar .registration li a,
+#sidebar .sections li span {
+	padding:10px 15px;
+}
+#sidebar .information li a {
+	padding:0px 10px;
+	background-position:0px -3px;
+}
+
+#sidebar .sections li a:hover,
+#sidebar .registration li a:hover {
+	background:url(../images/substrate3.png) no-repeat;
+	background-position:0px -70px;
+	background-color:#E6E6E6;
+}
+
+#sidebar .information li a:hover {
+	background:url(../images/substrate3.png) no-repeat;
+	background-position:0px -73px;
+	background-color:#E6E6E6;
+	text-decoration:underline;
+}
+
+#sidebar .information li:hover {
+	list-style-image:url(../images/pointer.png);
+	list-style-position:inside;
+/* Не могу понять, как сдвинуть указатель */
+}
+
+#items {
+	float:right;
+	width:670px;
+	background-color:green;
+}
+#items {
+	margin-top:10px;	
+}
+#items li {
+	display:block;
+	border:3px solid;
+	border-color:red;
+	background-color:#E4E4E4;
+}
+#items img {
+	display:block;
+	float:left;
+}
+
+#items h2,
+#items h3,
+#items p {
+	display:block;
+	float:left;
+	width:220px;
+	padding:5px 20px;
+}
+#items h2 {
+	font-size:16px;
+	color:red;
+}
+#items h3 {
+	font-size:14px;
+	color:gray;
+}
+#items p {
+	font-size:12px;
+	color:gray;
+}
+
+/*---------------------FOOTER--------------------------*/
+#footer {
+	display:block;
+	clear:both;
+	float:none;
+	padding:30px 0px 50px;
+}
+#footer ul,
+#footer li,
+#footer li a,
+#footer span {
+	display:inline;
+	margin-right:15px;
+	color:#FFF;
+	font-size:11px;
+	text-decoration:none;
+}
+
+#footer span {
+	float:right;
+}
