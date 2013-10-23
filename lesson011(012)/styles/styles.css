@@ -262,6 +262,8 @@ a:hover			{ text-decoration:none; }
 	border:3px solid;
 	border-color:red;
 	background-color:#E4E4E4;
+	overflow:hidden;
+	margin-top:10px;
 }
 #items img {
 	display:block;
